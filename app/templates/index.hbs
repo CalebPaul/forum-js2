@@ -1,10 +1,10 @@
-<h2>Ask The Internet</h2>
 
-<p>You'll get an answer.</p>
+
+
 
 <ul>
   {{#each model as |question|}}
-    <li>{{question.query}}</li>
+    {{question-tile question=question}}
     {{log 'object' question.query}}
   {{/each}}
 </ul>

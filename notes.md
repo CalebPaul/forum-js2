@@ -7,12 +7,12 @@
  * Allow users to add and edit questions.
  * Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
 
-##If you have completed the objectives for the code review, consider adding some additional features:
+##If you have completed the objectives for the code answer, consider adding some additional features:
  * Add custom styling.
  * Implement upvote/downvote functionality so that users may vote on answers.
  * Add tags to questions.
 
-##Your code will be reviewed for the following objectives:
+##Your code will be answered for the following objectives:
  * Application template contains header with link(s).
  * Data is stored in and retrieved from Ember Data models and Firebase.
  * Components are used to create display and behavior for your templates.

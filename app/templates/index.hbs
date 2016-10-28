@@ -4,9 +4,14 @@
 
 {{#each model.questions as |question|}}
   {{question-tile question=question}}
+  {{log 'each question' questions}}
 {{/each}}
+{{log 'questions' model.questions}}
 
-<h2>Reviews</h2>
+<h2>Answers</h2>
 {{#each model.answers as |answer|}}
   {{answer.response}}, {{answer.author}}, {{answer.timestamp}}
 {{/each}}
+{{log 'answers' model.answers}}
+
+{{new-answer saveAnswer="saveAnswer"}}

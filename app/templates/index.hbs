@@ -9,8 +9,11 @@
 {{log 'questions' model.questions}}
 
 <h2>Answers</h2>
+<ul>
+
+</ul>
 {{#each model.answers as |answer|}}
-  {{answer.response}}, {{answer.author}}, {{answer.timestamp}}
+  <li>{{answer.response}}, {{answer.author}}, {{answer.timestamp}}</li>
 {{/each}}
 {{log 'answers' model.answers}}
 

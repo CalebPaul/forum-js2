@@ -10,8 +10,16 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      }
+      },
     },
+
+    firebase: {
+      apiKey: "AIzaSyDSogklYSoFNvES3neRQmvnRdOO7XnvBbM",
+      authDomain: "forum-9bdf4.firebaseapp.com",
+      databaseURL: "https://forum-9bdf4.firebaseio.com",
+      storageBucket: "forum-9bdf4.appspot.com",
+      messagingSenderId: "848927967841"
+    }
 
     APP: {
       // Here you can pass flags/options to your application instance

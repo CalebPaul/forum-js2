@@ -43,7 +43,7 @@ _None known_
 ## Specifications
 * On site load:
     - Site displays a template.
-    - Displayed template can be edited by editting.
+    - Displayed template can be edited by editing.
 
 * When user selects 'edit':
     - Template can be edited.

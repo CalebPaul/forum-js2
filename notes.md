@@ -1,4 +1,3 @@
-
 ##Create a question and answer message board where a user submits a question and other users can respond with answers.
  * Questions should have the content of the question itself, an author and additional notes.
  * Answers should have the content of the answer and the author.

@@ -1,9 +1,5 @@
 
-
-
-
-
   {{#each model as |question|}}
-    {{question-tile question=question}}
-    {{log 'object' question.query}}
+    {{question-tile question=question destroyQuestion="destroyQuestion"}}
+    <!-- {{log 'object' question.query}} -->
   {{/each}}

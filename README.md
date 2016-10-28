@@ -1,4 +1,4 @@
-# _Readme Template_
+* # _Readme Template_
 
 #### _10-21-2016_
 ![project screenshot](/resources/img/screenshot.png)
@@ -56,13 +56,13 @@ _Caleb Paul: @calebpaulmusic_
 
 ## Technologies Used
 
-_Bootstrap_
-_Javascript_
-_jQuery_
-_Node_
-_Gulp_
-_Bower_
-_Angular_
+* _Bootstrap_
+* _Javascript_
+* _jQuery_
+* _Node_
+* _Gulp_
+* _Bower_
+* _Ember_
 
 ### License
 *This webpage is licensed under the GPL license.*

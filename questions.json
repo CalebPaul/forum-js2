@@ -1,0 +1,18 @@
+{
+	"questions": [{
+		"query": "How do I Ember?",
+		"notes": "pls help",
+		"author": "coder342",
+		"timestamp": "10-28-2016"
+	}, {
+		"query": "How do I Angular?",
+		"notes": "also, what is an event?",
+		"author": "coder911",
+		"timestamp": "10-27-2016"
+	}, {
+		"query": "How do I JavaScript?",
+		"notes": "i need help with loops",
+		"author": "coder86",
+		"timestamp": "10-25-2016"
+	}]
+}

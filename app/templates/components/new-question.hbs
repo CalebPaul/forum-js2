@@ -1,0 +1,30 @@
+{{#if addNewQuestion}}
+<h3>New Question</h3>
+<div>
+<form>
+  <div class="form-group">
+    <label for="query">Title</label>
+    {{input value=query id="query"}}
+  </div>
+
+  <div class="form-group">
+    <label for="notes">Question</label>
+    {{input value=notes id="notes"}}
+  </div>
+
+  <div class="form-group">
+    <label for="author">User Name</label>
+    {{input value=author id="author"}}
+  </div>
+
+  <div class="form-group">
+    <label for="timestamp">Date</label>
+    {{input value=timestamp id="timestamp" type="date"}}
+  </div>
+
+  <button class="btn btn-success" {{action 'saveQuestion1'}}>Post Question</button>
+</form>
+</div>
+{{else}}
+  <button class="btn btn-info" {{action 'questionFormShow'}}>Ask a Question</button>
+{{/if}}

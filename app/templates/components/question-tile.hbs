@@ -1,10 +1,10 @@
 <div class="well well-sm">
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-10">
       {{question.query}}
     </div>
-    <div class="col-md-4">
-      <button class="btn btn-danger" {{action 'delete' question}}>Delete Question</button>
+    <div class="col-md-2">
+      <button class="btn btn-danger" {{action 'delete' question}}><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
     </div>
   </div>
 </div>

@@ -4,6 +4,7 @@
       {{question.query}}
     </div>
     <div class="col-md-2">
+      {{update-question question=question update="update"}}
       <button class="btn btn-danger" {{action 'delete' question}}><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
     </div>
   </div>

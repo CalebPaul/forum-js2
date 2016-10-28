@@ -1,3 +1,6 @@
+<h2>More Info</h2>
 <h3>{{model.query}}</h3>
-<h4>{{model.notes}}</h4>
-<h4>{{model.author}}, <small>{{moment-from-now author.timestamp}}</small></h4>
+
+{{update-question question=model update="update"}}
+
+{{question-detail question=model destroyQuestion="destroyQuestion"}}

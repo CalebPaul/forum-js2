@@ -1,7 +1,8 @@
+<div>
+  {{new-question saveQuestion2="saveQuestion3"}}
+</div>
 
   {{#each model as |question|}}
-    {{question-tile question=question update='update' destroyQuestion="destroyQuestion"}}
+    {{question-tile question=question}}
     <!-- {{log 'object' question.query}} -->
   {{/each}}
-
-{{new-question saveQuestion2="saveQuestion3"}}

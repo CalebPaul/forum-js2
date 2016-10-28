@@ -1,1 +1,6 @@
-{{yield}}
+<h2>Detail</h2>
+{{question.query}}
+{{question.notes}}
+<h4>{{question.author}}, <small>{{moment-from-now question.timestamp}}</small></h4>
+
+<button {{action 'delete' question}}><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>

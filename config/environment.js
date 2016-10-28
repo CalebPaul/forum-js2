@@ -19,7 +19,7 @@ module.exports = function(environment) {
       databaseURL: "https://forum-9bdf4.firebaseio.com",
       storageBucket: "forum-9bdf4.appspot.com",
       messagingSenderId: "848927967841"
-    }
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance

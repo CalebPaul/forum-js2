@@ -19,5 +19,14 @@
 		"notes": "i need help with loops",
 		"author": "coder86",
 		"timestamp": "10-25-2016"
-	}]
+	}],
+	"answers": [{
+    "response": "good questions",
+    "author": "java7.4",
+    "timestamp": "10-27-2016"
+  }, {
+    "response": "let me look that up",
+    "author": "coder87",
+    "timestamp": "10-26-2016"
+  }]
 }

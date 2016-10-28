@@ -2,7 +2,11 @@
   {{new-question saveQuestion2="saveQuestion3"}}
 </div>
 
-  {{#each model as |question|}}
-    {{question-tile question=question}}
-    <!-- {{log 'object' question.query}} -->
-  {{/each}}
+{{#each model.questions as |question|}}
+  {{question-tile question=question}}
+{{/each}}
+
+<h2>Reviews</h2>
+{{#each model.answers as |answer|}}
+  {{answer.response}}, {{answer.author}}, {{answer.timestamp}}
+{{/each}}

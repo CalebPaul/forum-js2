@@ -1,7 +1,18 @@
-# Forum
+# _Readme Template_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _10-21-2016_
+![project screenshot](/resources/img/screenshot.png)
+#### By _**Caleb Paul**_
+
+## Description
+
+_Template is a template that templates._
+_It also is a template._
+
+## User Stories
+* As a person, I want a template.
+* I want to be able to edit the template.
+* I want the template to save me time.
 
 ## Prerequisites
 
@@ -15,39 +26,45 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+* `git clone <repository-url>` this repository.
+* change into the new directory.
+* `npm install`.
+* `bower install`.
+* Type `ember serve` in terminal, this will open the web app in your browser.
 
 ## Running / Development
 
-* `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
+## Known Bugs
 
-Make use of the many generators for code, try `ember help generate` for more details
+_None known_
 
-### Running Tests
+## Specifications
+* On site load:
+    - Site displays a template.
+    - Displayed template can be edited by editting.
 
-* `ember test`
-* `ember test --server`
+* When user selects 'edit':
+    - Template can be edited.
 
-### Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+## Support and contact details
 
-### Deploying
+_Caleb Paul: @calebpaulmusic_
 
-Specify what it takes to deploy your app.
 
-## Further Reading / Useful Links
+## Technologies Used
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+_Bootstrap_
+_Javascript_
+_jQuery_
+_Node_
+_Gulp_
+_Bower_
+_Angular_
 
+### License
+*This webpage is licensed under the GPL license.*
+
+Copyright (c) 2016 **_Caleb Paul_**

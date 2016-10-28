@@ -2,9 +2,8 @@
 
 
 
-<ul>
+
   {{#each model as |question|}}
     {{question-tile question=question}}
     {{log 'object' question.query}}
   {{/each}}
-</ul>

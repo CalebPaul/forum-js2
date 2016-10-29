@@ -1,18 +1,14 @@
-* # _Readme Template_
+* # _Ask The internet_
 
-#### _10-21-2016_
+#### _10-29-2016_
 ![project screenshot](/resources/img/screenshot.png)
 #### By _**Caleb Paul**_
 
 ## Description
 
-_Template is a template that templates._
-_It also is a template._
-
-## User Stories
-* As a person, I want a template.
-* I want to be able to edit the template.
-* I want the template to save me time.
+_Ask The internet is a question and answer forum style site._
+_Questions can be posted, read, updated, and deleted._
+_Answers can can be posted in response to questions, read, and deleted._
 
 ## Prerequisites
 
@@ -26,15 +22,15 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository.
-* change into the new directory.
-* `npm install`.
-* `bower install`.
+* Enter `git clone <repository-url>` this repository.
+* Move  into the new directory.
+* Type `npm install`.
+* Type `bower install`.
 * Type `ember serve` in terminal, this will open the web app in your browser.
 
 ## Running / Development
 
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* Navigate your browser to [http://localhost:4200](http://localhost:4200).
 
 ## Known Bugs
 
@@ -42,11 +38,24 @@ _None known_
 
 ## Specifications
 * On site load:
-    - Site displays a template.
-    - Displayed template can be edited by editing.
+    - Site displays list of questions.
+    - Site displays the username of the user that posted the question.
+    - Site displays a button which allows user to add a new question.
 
-* When user selects 'edit':
-    - Template can be edited.
+* When user clicks a question:
+    - These details about the question can be viewed:
+      * Question title.
+      * Question text.
+      * Question author.
+      * Question's date posted.
+
+    - These details about the answer/reply can be viewed:
+      * Answer text.
+      * Answer author.
+      * Answer's date posted.
+      
+    - The question can be updated, or deleted.
+    - The answer's/replies can be or deleted.
 
 
 ## Support and contact details

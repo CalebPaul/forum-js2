@@ -60,7 +60,6 @@ _Caleb Paul: @calebpaulmusic_
 * _Javascript_
 * _jQuery_
 * _Node_
-* _Gulp_
 * _Bower_
 * _Ember_
 

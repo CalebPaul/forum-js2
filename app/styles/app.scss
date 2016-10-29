@@ -1,4 +1,5 @@
 body {
+  background-color: lightblue;
   font-family: 'Cutive Mono', monospace;
   font-weight: bold;
   padding-top: 50px;
@@ -32,6 +33,12 @@ body {
 
   input {
     width: 100%;
+  }
+
+  .sub-container {
+    background-color: darkgrey;
+    margin: 10px;
+    padding: 4em;
   }
 
   .index-page {

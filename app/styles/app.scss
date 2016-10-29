@@ -1,12 +1,44 @@
 body {
-  padding-top: 55px;
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  padding-top: 50px;
+
+  li {
+    list-style: none;
+  }
+
+  .header-well {
+    font-family: 'VT323', monospace;
+  }
 
   .well {
     margin: 5px;
   }
 
+  .question-well {
+    margin: 1em;
+  }
 }
 
-li {
-  list-style: none;
+.navbar {
+  form {
+    margin: 2px;
+    padding-top: 10px;
+  }
+}
+
+.container {
+  width: 85%;
+
+  input {
+    width: 100%;
+  }
+
+  .index-page {
+    button {
+      margin: 1em;
+      height: 50px;
+      width: 100%;
+    }
+  }
 }

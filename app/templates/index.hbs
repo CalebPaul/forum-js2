@@ -1,18 +1,12 @@
-<div>
-  {{new-question saveQuestion2="saveQuestion3"}}
+<div class="row index-page">
+  <div class="col-md-7  col-sm-offset-1">
+    {{#each model.questions as |question|}}
+      {{question-tile question=question}}
+    {{/each}}
+  </div>
+  <div class="col-md-3">
+    <div>
+      {{new-question saveQuestion2="saveQuestion3"}}
+    </div>
+  </div>
 </div>
-
-{{#each model.questions as |question|}}
-  {{question-tile question=question}}
-  {{log 'each question' questions}}
-{{/each}}
-{{log 'questions' model.questions}}
-
-<h2>Answers</h2>
-<ul>
-  {{#each model.answers as |answer|}}
-    <li>{{answer.response}}, {{answer.author}}, {{moment-from-now answer.timestamp}}</li>
-  {{/each}}
-</ul>
-
-{{new-answer saveAnswer="saveAnswer"}}

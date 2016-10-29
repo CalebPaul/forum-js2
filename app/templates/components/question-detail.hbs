@@ -1,11 +1,13 @@
-<h2>Detail</h2>
-{{question.query}}
-{{question.notes}}
-<h4>{{question.author}}, <small>{{moment-from-now question.timestamp}}</small></h4>
+<hr>
+<div class="text-center well well-sm well-question">
+  <h3><strong>{{question.query}}</strong></h3>
+  <h4>{{question.notes}}</h4>
+  <h4>{{question.author}}, <small>{{moment-from-now question.timestamp}}</small></h4>
+</div>
 
-<button {{action 'delete' question}}><span class="glyphicon glyphicon-trash" aria-hidden="true"></span></button>
+<button class="btn btn-danger" {{action 'delete' question}}><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete Question</button>
 
-<h2>Replies</h2>
+<h2 class="text-center">Replies</h2>
 <ul>
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}

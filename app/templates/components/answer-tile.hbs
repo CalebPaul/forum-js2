@@ -1,4 +1,12 @@
-{{answer.response}} - {{answer.author}}
+<hr>
+<div class="row">
+  <div class="col-md-4">
+    <p>In reply to <em>"{{answer.question.query}}"</em></p>
+  </div>
+  <div class="col-md-8">
+    <p>{{answer.response}}</p>
+    <h5>- {{answer.author}}, {{moment-from-now answer.timestamp}}</h5>
+  </div>
+</div>
 
-<p>In reply to <em>"{{answer.question.query}}"</em></p>
-<button {{action 'delete' answer}}>Delete Answer</button>
+<button class="btn btn-danger" {{action 'delete' answer}}><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete Answer</button>

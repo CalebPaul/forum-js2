@@ -8,7 +8,7 @@ export default Ember.Route.extend({
     update(question, params) {
       Object.keys(params).forEach(function(key) {
         if(params[key]!==undefined) {
-          console.log(question);
+          console.log("update: " + question);
           question.set(key,params[key]);
         }
       });
@@ -17,7 +17,7 @@ export default Ember.Route.extend({
     },
 
     destroyQuestion(question) {
-      console.log("delete" + question);
+      console.log("delete: " + question);
       var answer_deletions = question.get('answers').map(function(answer) {
         return answer.destroyRecord();
       });

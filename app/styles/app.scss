@@ -17,21 +17,27 @@ body {
   }
 
 // QUESTION LIST WELLs
-
   .question-well {
     margin: 1em;
 
-// PAPERCLIP GLYPH IN QUESTION TILE
-
+// QUESTION TILE - PAPERCLIP GLYPH
     .glyphicon-paperclip {
       font-size: 18px;
       position: absolute;
       top: 12px;
-      margin-left: 5%;
+      margin-left: -15%;
     }
 
     .glyphicon-paperclip:hover {
       color: red;
+    }
+// QUESTION TILE - EXCLAMATION MARK
+    .glyphicon-envelope{
+      color: red;
+      font-size: 22px;
+      position: absolute;
+      top: 10px;
+      margin-left: -10%;
     }
   }
 

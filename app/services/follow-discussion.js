@@ -4,7 +4,6 @@ export default Ember.Service.extend({
   topics: [],
 
 // add(topic) {
-
 //   for (var i = 0; i < topics.length; i++) {
 //     if (topics[i] === topic) {
 //       alert('Already added!');

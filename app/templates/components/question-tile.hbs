@@ -1,8 +1,7 @@
 <div class="well well-sm question-well">
   <div class="row">
-
     <div class="col-md-10">
-      <h4 class="text-center">{{#link-to 'question' question.id}}{{question.query}}<small> - {{question.author}}</small>{{/link-to}}</h4> <span class="pull-right glyphicon glyphicon-paperclip" {{action 'followThisDiscussion' question}} ></span>
+      <h4 class="text-center">{{#link-to 'question' question.id}}{{question.query}}<small> - {{question.author}}</small>{{/link-to}}</h4> {{unanswered question}} <span class="pull-right glyphicon glyphicon-paperclip" {{action 'followThisDiscussion' question}} ></span>
     </div>
 
   </div>

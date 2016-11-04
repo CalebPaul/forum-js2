@@ -5,7 +5,7 @@ export default Ember.Component.extend({
 
   actions: {
     followThisDiscussion(topic) {
-      console.log('q-tile');
+      console.log('q-tile'); //to track action passing to service.
       this.get('followDiscussion').add(topic);
     }
   }

@@ -5,7 +5,7 @@
  - Possible Ideas: Nicely-formatted timestamps on questions and/or answers, a formatting change or special icon for questions with no answers, or questions with large numbers of answers, a formatting change or special icon for the answer with the most upvotes, etc.
 
 ### Integrate a service.
- - Possible Ideas: Allow users to create lists of favorite questions (follow this discussion from index or question detail views) or answers to reference later.
+ - MOSTLY DONE Possible Ideas: Allow users to create lists of favorite questions (follow this discussion from index or question detail views) or answers to reference later.
 
 ##ding some additional features:
  * Integrate Jill's feedback suggestions.

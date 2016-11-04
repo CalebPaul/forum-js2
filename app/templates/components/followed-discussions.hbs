@@ -1,1 +1,8 @@
-{{yield}}
+<div class="well">
+  <h4 class="page-header glyphicon glyphicon-paperclip"> <span>Followed Topics:</span></h4>
+  <ul>
+    {{#each followDiscussion.topics as |topic|}}
+      <li>{{topic.query}}</li>
+    {{/each}}
+  </ul>
+</div>

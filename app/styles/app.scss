@@ -16,8 +16,12 @@ body {
     margin: 5px;
   }
 
+// QUESTION LIST WELLs
+
   .question-well {
     margin: 1em;
+
+// PAPERCLIP GLYPH IN QUESTION TILE
 
     .glyphicon-paperclip {
       font-size: 18px;
@@ -30,8 +34,24 @@ body {
       color: red;
     }
   }
+
+//FOLLOWED TOPICS ON INDEX PAGE
+  .followed {
+    margin: 1em;
+    width: 100%;
+
+    h4 {
+      margin-top: -50px;
+      color: red;
+
+      span {
+        color: black !important;
+      }
+    }
+  }
 }
 
+//NAVBAR
 .navbar {
   .navbar-header {
     margin-left: 45%;

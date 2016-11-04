@@ -10,13 +10,21 @@ body {
 
   .header-well {
     font-family: 'VT323', monospace;
+    color: red;
+    .text-muted {
+      color: black;
+    }
   }
 
   .well {
     margin: 5px;
   }
 
-// QUESTION LIST WELLs
+// QUESTION LIST WELL
+.question-well:hover {
+  background-color: #5bc0de;
+}
+
   .question-well {
     margin: 1em;
 
@@ -32,12 +40,17 @@ body {
       color: red;
     }
 // QUESTION TILE - EXCLAMATION MARK
-    .glyphicon-envelope{
+    .q-tile-envelope{
       color: red;
       font-size: 22px;
       position: absolute;
       top: 10px;
       margin-left: -10%;
+    }
+
+    .answer-envelope {
+      color: red;
+      font-size: 10px;
     }
   }
 

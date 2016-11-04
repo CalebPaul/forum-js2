@@ -1,6 +1,7 @@
 ### Implement at least one computed property.
  - Possible Ideas: Allow users to upvote the answer they think is best, then sort answers by number of upvotes. Or display the number of answers each question has with a computed property.
- - Time till answered.
+ - SORT-OF Time till answered.
+ - DONE Concat strings using computed property.
 
 ### DONE Add a helper.
  - DONE Possible Ideas: Nicely-formatted timestamps on questions and/or answers, a formatting change or special icon for questions with no answers, or questions with large numbers of answers, a formatting change or special icon for the answer with the most upvotes, etc.
@@ -15,7 +16,7 @@
  * Add tags to questions.
 
 ##Your code will be answered for the following objectives:
- * The project contains at least one functioning computed property.
+ * DONE The project contains at least one functioning computed property.
  * DONE A service has been implemented successfully.
  * DONE At least one custom helper is being used to format data.
 

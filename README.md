@@ -1,6 +1,6 @@
 * # _Ask The internet_
 
-#### _10-29-2016_
+#### _11-04-2016_
 ![project screenshot](/resources/img/screenshot.png)
 #### By _**Caleb Paul**_
 
@@ -41,6 +41,8 @@ _None known_
     - Site displays list of questions.
     - Site displays the username of the user that posted the question.
     - Site displays a button which allows user to add a new question.
+    - Site displays a paperclip icon, to add questions to a 'followed topics' list.
+    - Site displays an envelope icon on questions that have received answers.
 
 * When user clicks a question:
     - These details about the question can be viewed:
@@ -53,7 +55,7 @@ _None known_
       * Answer text.
       * Answer author.
       * Answer's date posted.
-      
+
     - The question can be updated, or deleted.
     - The answer's/replies can be or deleted.
 

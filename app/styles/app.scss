@@ -18,13 +18,19 @@ body {
 
   .question-well {
     margin: 1em;
+
+    .glyphicon-paperclip {
+      font-size: 15px;
+      position: absolute;
+      top: 15px;
+      margin-left: 92%;
+    }
   }
 }
 
 .navbar {
-  form {
-    margin: 2px;
-    padding-top: 10px;
+  .navbar-header {
+    margin-left: 45%;
   }
 }
 
@@ -38,7 +44,7 @@ body {
   .sub-container {
     background-color: darkgrey;
     margin: 10px;
-    padding: 4em;
+    padding: 2em;
   }
 
   .index-page {

@@ -20,10 +20,14 @@ body {
     margin: 1em;
 
     .glyphicon-paperclip {
-      font-size: 15px;
+      font-size: 18px;
       position: absolute;
-      top: 15px;
-      margin-left: 92%;
+      top: 12px;
+      margin-left: 5%;
+    }
+
+    .glyphicon-paperclip:hover {
+      color: red;
     }
   }
 }
